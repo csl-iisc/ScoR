@@ -2,7 +2,7 @@
 The goal is to demonstrate how scoped synchronization can be used in CUDA, and also showcase different scoped races that can arise. Consequently, code provided may not be the most optimal implementation.    
 Contains:
 * 32 microbenchmarks
-* 7 applications   
+* 7 benchmarks   
 
 For further details refer to our paper:   
 _Aditya K Kamath, Alvin A. George, Arkaprava Basu. "ScoRD: A Scoped Race Detector for GPUs" In the proceedings of 47th IEEE/ACM International Symposium on Computer Architecture, 2020._   
