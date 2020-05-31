@@ -1,5 +1,5 @@
 # Scoped Racey Benchmark Suite 
-Code provided may not be the most optimal implementation. The goal is to demonstrate how scoped synchronization can be used in CUDA, and also showcase different scoped races that can arise.   
+The goal is to demonstrate how scoped synchronization can be used in CUDA, and also showcase different scoped races that can arise. Consequently, code provided may not be the most optimal implementation.    
 Contains:
 * 32 microbenchmarks
 * 7 applications   
