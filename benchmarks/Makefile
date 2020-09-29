@@ -1,7 +1,6 @@
-DIRS ?= 1dconv graph-coloring graph-connectivity matrix-multiplication reduction rule-110 uts
-
+DIRS  ?= 1dconv graph-coloring graph-connectivity matrix-multiplication reduction rule-110 uts
 RACEY ?= 
-ARCH ?= -arch=compute_70
+ARCH  ?= -arch=compute_60
 
 all:
 	mkdir -p ./bin/
