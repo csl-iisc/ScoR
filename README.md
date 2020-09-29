@@ -5,7 +5,7 @@ Contains:
 * 7 benchmarks   
 
 For further details refer to our paper:   
-A. K. Kamath, A. A. George, A. Basu. **ScoRD: A Scoped Race Detector for GPUs.** In _Proceedings of 47th IEEE/ACM International Symposium on Computer Architecture (ISCA), 2020._ [[Paper]](https://www.csa.iisc.ac.in/~arkapravab/papers/isca20_ScoRD.pdf) [[Video]](https://www.csa.iisc.ac.in/~arkapravab/papers/ScoRD_talk.mp4) [[Bibtex]](https://www.computer.org/csdl/api/v1/citation/bibtex/proceedings/1lsaqzyS9u8/09138958)   
+- A. K. Kamath, A. A. George, A. Basu. **ScoRD: A Scoped Race Detector for GPUs.** In _Proceedings of 47th IEEE/ACM International Symposium on Computer Architecture (ISCA), 2020._ [[Paper]](https://www.csa.iisc.ac.in/~arkapravab/papers/isca20_ScoRD.pdf) [[Video]](https://www.csa.iisc.ac.in/~arkapravab/papers/ScoRD_talk.mp4) [[Bibtex]](https://www.computer.org/csdl/api/v1/citation/bibtex/proceedings/1lsaqzyS9u8/09138958)   
 
 ## Compilation details
 This code was compiled using CUDA 8.0 with the compute_60 flag set, and tested using GPGPU-Sim.   
