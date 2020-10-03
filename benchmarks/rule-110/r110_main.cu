@@ -101,7 +101,7 @@ int main()
     errorCheck(cudaMalloc(&d_copy, sizeof(DATA) * size), "Malloc device copy");
     errorCheck(cudaMalloc(&d_comp, sizeof(int) * NBLOCKS * NTHREADS), "Malloc device complete");
     errorCheck(cudaMemcpy(d_arr, h_arr, sizeof(DATA) * size, cudaMemcpyHostToDevice), "Memcpy device arr");
-    errorCheck(cudaMemset(d_comp, 0, sizeof(int) * size), "Memset complete");
+    errorCheck(cudaMemset(d_comp, 0, sizeof(int) * NBLOCKS * NTHREADS), "Memset complete");
     for(int i = 0; i < steps; ++i)
         rule110Kernel<<<NBLOCKS, NTHREADS>>>(d_arr, d_copy, d_comp, size, i + 1);
     errorCheck(cudaMemcpy(h_arr, d_arr, sizeof(DATA) * size, cudaMemcpyDeviceToHost), "Memcpy host arr");

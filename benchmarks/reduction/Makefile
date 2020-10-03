@@ -1,6 +1,6 @@
 RACEY    ?= 
-NBLOCKS  ?= 15
-NTHREADS ?= 1024
+NBLOCKS  ?= 30
+NTHREADS ?= 512
 
 NVCC ?= nvcc
 ARCH ?= -arch=compute_60
