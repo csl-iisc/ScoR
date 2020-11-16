@@ -178,6 +178,7 @@ __device__ bool workDone(StackStats *localStacks, StackStats *stealStacks)
                 break;
             }
     }
+    __syncthreads();
     return done[wid];
 }
 
