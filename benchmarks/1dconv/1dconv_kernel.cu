@@ -67,7 +67,7 @@ void convolveKernel(float *filter, int filterSize, float *array, int arraySize, 
         int outputIndex = (offset + gtid) / filterSize; 
         if(outputIndex < arraySize) {
             int inputIndex = outputIndex - (filterIndex - filterSize / 2);
-            if(inputIndex < arraySize) {
+            if(inputIndex >= 0 && inputIndex < arraySize) {
 #ifdef RACEY
                 atomicAdd_block(&output[outputIndex], array[inputIndex] * filter[filterIndex]);
 #else
